@@ -1,0 +1,16 @@
+{
+  "manifest_version": 1,
+
+  "name": "QR-Generator",
+  "description": "Simple QR Code Generator to be used for future projects.",
+  "version": "1.0.0",
+  "homepage_url": "https://github.com/jamieNolanDEV/SimpleQRGeneratorChromeExtension",
+  "icons": {
+  //TBC
+  "permissions": [ "tabs" ],
+  "offline_enabled": true,
+  "browser_action": {
+    "default_icon": "icon-16x16.png",
+    "default_popup": "popup.html"
+  }
+}
